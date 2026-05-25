@@ -22,7 +22,7 @@ def create_payment():
             "amount": amount,
             "currency": "840", # 840 is USD
             "orderNumber": f"FIT-V2-{int(time.time())}", 
-            "returnUrl": "https://elite-backend.onrender.com/success",
+            "returnUrl": "https://elite-physique-backend.onrender.com/success",
             "description": description
         }
 
